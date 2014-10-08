@@ -18,7 +18,8 @@ public class Kata2 {
                 key = iKey;
             }
         }
-        System.out.println("Most repeated key "+"["+key+"]"+ " repeated "+mostRepeatedValue+" times.");
+        System.out.println("Most repeated key "+"["+key+"]"+ 
+                " repeated "+mostRepeatedValue+" times.");
     }        
 
     private static int getFrecuency(HashMap<Integer, Integer> histogram, int i) {
